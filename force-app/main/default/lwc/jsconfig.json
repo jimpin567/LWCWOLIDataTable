@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/WorkOrderDataTable": [
+                "WorkOrderDataTable/WorkOrderDataTable.js"
+            ],
+            "c/workOrderDataTable": [
+                "workOrderDataTable/workOrderDataTable.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
